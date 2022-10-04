@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <style>
+        .form{
+            display: inline-block;
+            padding:10px 20px;
+        }
+        .form div{
+            margin: 10px 0px;
+        }
+    </style>
+
+</head>
+<body align="middle">
+    <h1 align="middle">REGISTRATION FORM</h1>
+    <div align="middle" class="form" style="background-color: lightblue;">
+       <form>
+        <div>
+            <lable>Gender: </lable>
+        <label for="mr">MR</label>
+        <input type="radio" name="greet" id="mr"/>
+        <label for="mrs">MRs</label>
+        <input type="radio" name="greet" id="mrs"/>
+        <label for="Ms">Ms</label>
+        <input type="radio" name="greet" id="Ms"/>
+        </div>
+        <div>
+            <label>STUDENT ID:</label>
+            <input type="text" placeholder="enter ID"/>
+        </div>
+        <div>
+            <label>FIRST NAME:</label>
+            <input type="text" placeholder="enter name"/>
+        </div>
+        <div>
+            <label>LAST NAME:</label>
+            <input type="text" placeholder="enter name"/>
+        </div>
+        <div>
+            <label>USER NAME:</label>
+            <input type="text" placeholder="enter name"/>
+        </div>
+        <div>
+            <label>PASSWORD:</label>
+            <input type="password" placeholder="enter password"/>
+        </div>
+        <div>
+            <label>STUDENT ID:</label>
+            <textarea rows="3" cols="20"></textarea>
+        </div>
+        <div>
+            <label>state</label>
+            <select >
+                <option>    </option>
+                <option>telangana</option>
+                <option>andhra</option>
+                <option>tamilnadu</option>
+                <option>Karnataka</option>
+                <option>Maharastra</option>
+                <option>Gujrath</option>
+            </select>
+        </div>
+        <div>
+            <label>PINCODE:</label>
+            <input type="number" id="pincode"/>
+        </div>
+        <div>
+            <label>PHOTO</label>
+            <input type="file"/>
+        </div>
+        <div>
+            <label>MOBILE NUMBER</label>
+            <input type="number" placeholder="91+"/>
+        </div>
+        <div>
+            <label>LANGUAGES KNOWN</label><br/>
+            <label value="english">english</label>
+            <input type="checkbox" name="english"/>
+            <label value="telugu">telugu</label>
+            <input type="checkbox" name="telugu"/>
+            <label value="hindi">hindi</label>
+            <input type="checkbox" name="hindi"/>
+        </div>
+        <div>
+            <label>ADDITIONAL INFORMATION</label>
+            <textarea rows="3" cols="20"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="terms"/>
+            <label>I AM ACCEPTING THE TERMS AND CONDITIONS</label>
+        </div>
+        <div>
+            <input type="submit" value="submit"/>
+            <input type="reset" value="reset"/>
+        </div>
+
+    </form>     
+    </div>
+</body>
+</html>
